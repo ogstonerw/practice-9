@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/capitain.jpg</file>
+        <file>img/classss.jpg</file>
+        <file>img/zvoni babushke.jpg</file>
+    </qresource>
+</RCC>

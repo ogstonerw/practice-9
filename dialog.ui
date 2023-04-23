@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>693</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>400</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OZON">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OZON</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WB">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>WB</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="babushka">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>-90</y>
+     <width>1161</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../zvoni babushke.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>babushka</zorder>
+  <zorder>lcdNumber</zorder>
+  <zorder>OZON</zorder>
+  <zorder>WB</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
